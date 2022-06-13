@@ -1,0 +1,261 @@
+{
+  "instanceDetails": {
+    "instance": "Avagate",
+    "parentMID": "534001218",
+    "activeMID": "534001218"
+  },
+  "contentBuilder": {
+    "folders": [
+      {
+        "id": 69858,
+        "name": "ssjs_lib",
+        "parentId": 35088,
+        "categoryType": "asset",
+        "rootFolder": true,
+        "folderPath": "Content Builder/ssjs_lib"
+      },
+      {
+        "id": 72815,
+        "name": "app_config",
+        "parentId": 69858,
+        "categoryType": "asset",
+        "rootFolder": false,
+        "folderPath": "Content Builder/ssjs_lib/app_config"
+      },
+      {
+        "id": 89135,
+        "name": "newAmpscriptBlock",
+        "parentId": 69858,
+        "categoryType": "asset",
+        "rootFolder": false,
+        "folderPath": "Content Builder/ssjs_lib/newAmpscriptBlock"
+      },
+      {
+        "id": 97149,
+        "name": "testfolder",
+        "parentId": 69858,
+        "categoryType": "asset",
+        "rootFolder": false,
+        "folderPath": "Content Builder/ssjs_lib/testfolder"
+      },
+      {
+        "id": 84439,
+        "name": "test",
+        "parentId": 72815,
+        "categoryType": "asset",
+        "rootFolder": false,
+        "folderPath": "Content Builder/ssjs_lib/app_config/test"
+      },
+      {
+        "id": 97137,
+        "name": "newFolder",
+        "parentId": 72815,
+        "categoryType": "asset",
+        "rootFolder": false,
+        "folderPath": "Content Builder/ssjs_lib/app_config/newFolder"
+      }
+    ],
+    "assets": [
+      {
+        "id": 49817,
+        "bldrId": "72c85975-08f2-4860-8127-8f437f5af7c5",
+        "name": "Test - 20220311_141205",
+        "customerKey": "82a37369-8f2b-46e6-93bd-997776e2228d",
+        "assetType": {
+          "id": 208,
+          "name": "htmlemail",
+          "displayName": "HTML Email"
+        },
+        "category": {
+          "id": 69858,
+          "name": "ssjs_lib",
+          "parentId": 35088,
+          "folderPath": "Content Builder/ssjs_lib"
+        },
+        "views": {
+          "html": {
+            "content": "<!-- TONY was here. -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n  <meta name=\"format-detection\" content=\"telephone=no, date=no, address=no, email=no, url=no\">\n  <meta name=\"x-apple-disable-message-reformatting\">\n  <meta name=\"color-scheme\" content=\"light only\">\n  <meta name=\"supported-color-schemes\" content=\"light only\">\n  <title>Antidote Email Template</title>\n  <!--[if mso]>\n  <noscript>\n    <xml>\n      <o:OfficeDocumentSettings>\n        <o:PixelsPerInch>96</o:PixelsPerInch>\n      </o:OfficeDocumentSettings>\n    </xml>\n  </noscript>\n  <![endif]-->\n  <!--[if !mso]><!-->\n  <link href=\"https://fonts.googleapis.com/css?family=Fraunces\" rel=\"stylesheet\" type=\"text/css\">\n  <link href=\"https://fonts.googleapis.com/css?family=Montserrat\" rel=\"stylesheet\" type=\"text/css\">\n  <style type=\"text/css\">\n    @import url(https://fonts.googleapis.com/css?family=Fraunces);\n    @import url(https://fonts.googleapis.com/css?family=Montserrat);\n  </style>\n  <!--<![endif]-->\n  <style>\n    :root {\n      color-scheme: light only;\n      supported-color-schemes: light only;\n    }\n    body {\n      margin: 0;\n    }\n    .main {\n      box-sizing: border-box;\n    }\n\n    @media screen and (max-width: 800px) {\n      .border-padding > table > tbody > tr > td, .border-padding > div > table > tbody > tr > td {\n        padding-left: 30px !important;\n        padding-right: 30px !important;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .feature-bg, .feature-body-bg {\n        background-size: auto 40% !important;\n      }\n      .feature-bg .copy, .feature-body-bg .copy {\n        margin-top: 200px;\n        width: 100%;\n        background-color: #fb6f55;\n      }\n      .feature-body-bg .copy {\n        margin-top: 300px;\n      }\n      .feature-bg .copy td.not-empty {\n        width: 100%;\n      }\n      .feature-bg .copy td.empty, .feature-body-bg .copy td.empty {\n        display: none;\n      }\n      .feature-body-bg .copy td.not-empty {\n        width: 100%;\n      }\n      .feature-bg-b .copy, .feature-body-bg-b .copy {\n        background-color: #004c74;\n      }\n      .feature-bg-b .copy h2, .feature-bg-b .copy p, .feature-body-bg-b .copy h2, .feature-body-bg-b .copy p {\n        color: #ffffff !important;\n      }\n      .feature-body-bg .button tbody tr td, .feature-body-bg .button tbody tr td a {\n        background: #ffffff !important;\n        color: #004c74 !important;\n      }\n\n      .column {\n        display: block !important;\n        width: 100% !important;\n        box-sizing: border-box;\n        padding: 0 30px 30px 30px !important;\n      }\n      .column:last-child {\n        padding-bottom: 0 !important;\n      }\n      .column.alt {\n        padding-top: 30px !important;\n        padding-bottom: 0 !important;\n      }\n      .column.alt:last-child {\n        padding-bottom: 30px !important;\n      }\n      .column img.fill {\n        width: 100% !important;\n        height: auto !important;\n      }\n      .icons .column {\n        width: 50% !important;\n        float: left;\n      }\n      .icons .column:nth-child(3) {\n        padding-bottom: 0 !important;\n      }\n      .icons .column.alt:nth-child(3) {\n        padding-bottom: 14px !important;\n      }\n    }\n  </style>\n</head>\n<body style=\"background: #ffffff;\">\n  <div style=\"display: none;\"></div>\n  <custom name=\"opencounter\" type=\"tracking\"></custom>\n  <div role=\"article\" aria-roledescription=\"email\" lang=\"en\" style=\"background: #ffffff; font-size: 16px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\">\n\n    <!--[if true]>\n    <table role=\"presentation\" style=\"width: 1000px;\" align=\"center\"><tr><td>\n    <![endif]-->\n    <div class=\"main\" style=\"max-width: 1000px; margin: 0 auto;\">\n      <div class=\"content\" style=\"margin: 0; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 24px; color: #333333; text-align: left; font-weight: 300;\">\n\n<!-- Header -->\n\n        <div>\n          <div class=\"border-padding feature-bg\" style=\"display: table-cell; background-image: url(https://via.placeholder.com/2000x1000?text=Feature+Image); background-repeat: no-repeat; background-size: cover; background-position: top center; width: 100%; height: 500px; vertical-align: middle;\">\n                  <!--[if mso]> <v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" fill=\"true\" stroke=\"false\" style=\"width: 750pt; height: 450px; text-align: center;\"> <v:fill type=\"frame\" size=\"750pt,450pt\" alignshape=\"true\" src=\"https://via.placeholder.com/2000x1000?text=Feature+Image\"  color=\"#ffffff\" /> <v:textbox inset=\"0,0,0,0\"><![endif]-->\n            <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n              <tbody><tr>\n                <td style=\"padding: 40px 65px 30px 65px;\">\n                  <img height=\"auto\" src=\"antidote-logo.png\" style=\"margin: 0; border: 0; display: inline-block; outline: none; text-decoration: none; height: 34px; width: auto;\">\n                </td>\n              </tr>\n            </tbody></table>\n            <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" class=\"copy\">\n              <tbody><tr>\n                <td width=\"50%\" style=\"padding: 20px 0 40px 65px;\">\n                  <h2 style=\"margin: 0; margin-bottom: 20px; font-family: Fraunces, Georgia, serif; font-size: 52px; font-weight: 600; line-height: 70px; color: #ffffff; letter-spacing: -2px;\">Hello Antidoters</h2>\n                  <p style=\"margin: 0; margin-bottom: 20px; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #ffffff;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n                  <div>\n                  <!--[if mso]>\n                    <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n                      <tr>\n                        <td width=\"65\"></td>\n                        <td>\n                  <![endif]-->\n                  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" class=\"button outlook-button\" style=\"display: inline-block; border-collapse: separate; border-radius: 50px; line-height: 100%;\">\n                    <tbody style=\"display: inline-block;\">\n                      <tr>\n                        <td style=\"display: inline-block; border: none; border-radius: 50px; cursor: auto; mso-padding-alt: 13px 40px 15px 40px; background: #ffffff;\"><a href=\"https://www.antidotehealth.ai/#\" target=\"_blank\" style=\"display: inline-block; border-radius: 50px; background: #ffffff; color: #004c74; font-family: Montserrat,Arial,sans-serif; font-size: 15px; font-weight: bold; line-height: 1; letter-spacing: 0.5px; margin: 0; text-decoration: none; padding: 13px 40px 15px 40px; mso-padding-alt: 0px; text-align: center;\">Get Started</a>\n                        </td>\n                      </tr>\n                    </tbody>\n                  </table>\n                  <!--[if mso]>\n                        </td>\n                      </tr>\n                    </table>\n                  <![endif]-->\n                  </div>\n                </td>\n                <td width=\"50%\"></td>\n              </tr>\n            </tbody></table>\n            <!--[if mso]></v:textbox></v:rect><![endif]-->\n          </div>\n        </div><div>\n          <!--[if true]>\n          <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\" style=\"all: unset; opacity: 0;\">\n            <tr>\n          <![endif]-->\n          <div style=\"display: table; width: 100%;\">\n            <!--[if true]><td width=\"50%\" style=\"padding: 0 65px; padding-right: 25px;\"><![endif]-->\n            <!--[if !true]><!-->\n              <div class=\"column\" style=\"display: table-cell; width: 50%; padding: 0 65px; padding-right: 25px;\">\n            <!--<![endif]-->\n                <img height=\"auto\" src=\"https://via.placeholder.com/822x642?text=Content+Image\" width=\"411\" alt=\"\" class=\"fill\" style=\"display: block; width: 100%; height: auto;\">\n            <!--[if !true]><!-->\n              </div>\n            <!--<![endif]-->\n            <!--[if true]>\n              </td>\n              <td width=\"50%\" style=\"padding: 0 65px; padding-left: 25px;\">\n            <![endif]-->\n            <!--[if !true]><!-->\n              <div class=\"column\" style=\"display: table-cell; width: 50%; padding: 0 65px; padding-left: 25px; vertical-align: middle;\">\n            <!--<![endif]-->\n                <p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74; font-weight: 300;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"display: inline-block; border-collapse: separate; line-height: 100%;\">\n            <tbody><tr>\n              <td colspan=\"3\"><img src=\"coupon-top.png\" width=\"309\" height=\"33\" alt=\"\" style=\"display: block; margin: 0 auto; width: 309px; height: 33px;\"></td>\n            </tr>\n            <tr>\n              <td><img src=\"coupon-left.png\" width=\"43\" height=\"151\" alt=\"\" style=\"display: block; margin: 0 auto; width: 43px; height: 151px;\"></td>\n              <td style=\"width: 227px; background-color: #fff;\">\n                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"display: block; border-collapse: separate; line-height: 100%;\">\n                  <tbody><tr>\n                    <td colspan=\"3\" style=\"height: 74px;\"><h3 style=\"margin: 0; font-family: Fraunces, Georgia, serif; font-size: 22px; font-weight: 300; line-height: 26px; color: #585758; text-align: center; letter-spacing: -.5px;\">Get Your First<br>Visit for <span style=\"color: #fb6f55;\">Only $29</span></h3></td>\n                  </tr>\n                  <tr>\n                    <td colspan=\"3\"><img src=\"coupon-divider-1.png\" width=\"227\" height=\"9\" alt=\"\" style=\"display: block; margin: 0 auto; width: 227px; height: 9px;\"></td>\n                  </tr>\n                  <tr>\n                    <td style=\"width: 100px; text-align: left;\"><p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 13px; line-height: 20px; color: #585758;\">With<br>Coupon Code →</p></td>\n                    <td style=\"width: 27px; text-align: center;\"><img src=\"coupon-divider-2.png\" width=\"7\" height=\"68\" alt=\"\" style=\"display: block; margin: 0 auto; width: 7px; height: 68px;\"></td>\n                    <td style=\"width: 100px; text-align: left;\"><p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 16px; line-height: 22px; color: #fb6f55;\">VISIT29</p>\n                    </td>\n                  </tr>\n                </tbody></table>\n              </td>\n              <td><img src=\"coupon-right.png\" width=\"39\" height=\"151\" alt=\"\" style=\"display: block; margin: 0 auto; width: 43px; height: 151px;\"></td>\n            </tr>\n            <tr>\n              <td colspan=\"3\"><img src=\"coupon-bottom.png\" width=\"309\" height=\"58\" alt=\"\" style=\"display: block; margin: 0 auto; width: 309px; height: 58px;\"></td>\n            </tr>\n          </tbody></table>\n            <!--[if !true]><!-->\n              </div>\n            <!--<![endif]-->\n            <!--[if true]></td><![endif]-->\n          </div>\n          <!--[if true]>\n            </tr>\n          </table>\n          <![endif]-->\n        </div><div class=\"column\" style=\"text-align: center;\">\n          <p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <a a=\"\" href=\"https://www.antidotehealth.ai/#\" style=\"color: #fb6f55; text-decoration: underline;\">aliquip</a> ex ea commodo consequat.</p>\n\n        </div>\n\n<!-- Content -->\n\n      </div>\n\n<!-- Footer -->\n\n      <div class=\"column\" style=\"margin-top: 40px; padding: 40px 150px; text-align: center;\">\n        <h2 style=\"margin: 0; margin-bottom: 20px; font-family: Montserrat, Arial, sans-serif; font-size: 25px; font-weight: 600; line-height: 32px; color: #004c74;\">Let's Stay In Touch</h2>\n        <p style=\"margin-bottom: 20px;\"><a href=\"https://twitter.com/AntidoteAI\" target=\"_blank\"><img height=\"auto\" src=\"social-twitter.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.linkedin.com/company/antidotehealth\" target=\"_blank\"><img height=\"auto\" src=\"social-linkedin.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.facebook.com/AntidoteHealthAI\" target=\"_blank\"><img height=\"auto\" src=\"social-facebook.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.youtube.com/c/AntidoteHealth\" target=\"_blank\"><img height=\"auto\" src=\"social-youtube.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.instagram.com/antidoteai/\" target=\"_blank\"><img height=\"auto\" src=\"social-instagram.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a></p>\n        <p style=\"margin: 0; margin-bottom: 90px; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74; text-align: center;\">Antidote Health helping you stay fit, healthy and happy.</p>\n        <p style=\"margin: 0; margin-bottom: 60px; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74; text-align: center;\"><a href=\"%%profile_center_url%%\" alias=\"Update Profile\" style=\"color: #fb6f55; text-decoration: underline;\">Update Profile / Unsubscribe</a><br><br>\n            %%Member_Busname%% <br>%%Member_Addr%%, %%Member_City%%, %%Member_State%% %%Member_PostalCode%% %%Member_Country%%</p>\n      </div>\n\n    </div>\n    <!--[if true]>\n    </td></tr></table>\n    <![endif]-->\n\n  </div>\n\n</body>\n</html>\n",
+            "availableViews": [],
+            "data": {
+              "email": {
+                "options": {
+                  "generateFrom": ""
+                }
+              }
+            },
+            "modelVersion": 2
+          },
+          "text": {
+            "content": "Hello Antidoters\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n[Get Started](https://www.antidotehealth.ai/#)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nGet Your First\nVisit for Only $29\n\nWith\nCoupon Code →\n\nVISIT29\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut [aliquip](https://www.antidotehealth.ai/#) ex ea commodo consequat.\n\nLet's Stay In Touch\n\nhttps://twitter.com/AntidoteAI https://www.linkedin.com/company/antidotehealth https://www.facebook.com/AntidoteHealthAI https://www.youtube.com/c/AntidoteHealth https://www.instagram.com/antidoteai/\n\nAntidote Health helping you stay fit, healthy and happy.\n\n[Update Profile / Unsubscribe](%%profile_center_url%%)\n\n%%Member_Busname%%\n%%Member_Addr%%, %%Member_City%%, %%Member_State%% %%Member_PostalCode%% %%Member_Country%%",
+            "availableViews": [],
+            "data": {
+              "email": {
+                "options": {
+                  "generateFrom": ""
+                }
+              }
+            },
+            "modelVersion": 2
+          },
+          "subjectline": {
+            "content": "Antidote Email Template",
+            "availableViews": [],
+            "data": {
+              "email": {
+                "options": {
+                  "generateFrom": ""
+                }
+              }
+            },
+            "modelVersion": 2
+          }
+        }
+      },
+      {
+        "id": 52148,
+        "bldrId": "832b52f6-082e-4a8c-9a26-a68cf1aaf24c",
+        "name": "_wsProxy - 20220316_123652",
+        "customerKey": "23a679c2-1acc-41e5-b864-e255c602c47f",
+        "assetType": {
+          "id": 220,
+          "name": "codesnippetblock",
+          "displayName": "Code Snippet Block"
+        },
+        "category": {
+          "id": 72815,
+          "name": "app_config",
+          "parentId": 69860,
+          "folderPath": "Content Builder/ssjs_lib/app_config"
+        },
+        "content": "<script runat=\"server\">\nPlatform.Load(\"core\", \"1.1.1\");\n\n// update comment\n</script>\n"
+      },
+      {
+        "id": 66781,
+        "bldrId": "2a707907-8434-4927-867b-343833c1aee2",
+        "name": "newFile",
+        "customerKey": "8e1cd4c6-9c6e-43ec-be45-0789e2d95dd3",
+        "assetType": {
+          "id": 220,
+          "name": "codesnippetblock",
+          "displayName": "Code Snippet Block"
+        },
+        "category": {
+          "id": 69858,
+          "name": "ssjs_lib",
+          "parentId": 35088,
+          "folderPath": "Content Builder/ssjs_lib"
+        },
+        "content": "<script runat=\"server\">\n  // New Script Asset\n\n  //sfmcdg comment\n  \n  // debug fn update! UPDATE\n  function debug(arg){\n    Write.Stringify(arg)\n  }\n</script>\n"
+      },
+      {
+        "id": 69334,
+        "bldrId": "d17db44e-c18e-4400-ab5f-318c14b0f351",
+        "name": "newfile2",
+        "customerKey": "3271626d-c0a1-465c-b34e-1e1b65b2a039",
+        "assetType": {
+          "id": 197,
+          "name": "htmlblock",
+          "displayName": "HTML Block"
+        },
+        "category": {
+          "id": 69858,
+          "name": "ssjs_lib",
+          "parentId": 35088,
+          "folderPath": "Content Builder/ssjs_lib"
+        },
+        "content": "<div>\n  This is an html block test updated Content Update from tz cpu\n  </div>"
+      },
+      {
+        "id": 75389,
+        "bldrId": "e3f54d2a-c449-45cc-8aff-b1322b76e28f",
+        "name": "newASFile",
+        "customerKey": "33bbe85e-f027-4c89-8c6f-dd5a28aa7c42",
+        "assetType": {
+          "id": 220,
+          "name": "codesnippetblock",
+          "displayName": "Code Snippet Block"
+        },
+        "category": {
+          "id": 89135,
+          "name": "newAmpscriptBlock",
+          "parentId": 69858,
+          "folderPath": "Content Builder/ssjs_lib/newAmpscriptBlock"
+        },
+        "content": "%%[\n\nset @var = 'content'\n\n]%%\n"
+      },
+      {
+        "id": 87383,
+        "bldrId": "468f603b-ab1e-429c-befe-9cfdf0a45c1b",
+        "name": "newFile_1",
+        "customerKey": "653a649e-07f4-440c-a607-dc671a588304",
+        "assetType": {
+          "id": 220,
+          "name": "codesnippetblock",
+          "displayName": "Code Snippet Block"
+        },
+        "category": {
+          "id": 69858,
+          "name": "ssjs_lib",
+          "parentId": 35088,
+          "folderPath": "Content Builder/ssjs_lib"
+        },
+        "content": "<script runat=\"server\">\n  // New Script Asset 232\n\n  // debug fn update! UPDATE\n  function debug(arg){\n    Write.Stringify(arg)\n  }\n</script>\n"
+      },
+      {
+        "id": 92773,
+        "bldrId": "87db7cf9-0cda-4574-b724-7c09eecb797e",
+        "name": "deploy_Test - 20220311_141205",
+        "customerKey": "cdc39b30-6529-4250-92e8-79f2daa8a590",
+        "assetType": {
+          "id": 208,
+          "name": "htmlemail",
+          "displayName": "HTML Email"
+        },
+        "category": {
+          "id": 69858,
+          "name": "ssjs_lib",
+          "parentId": 35088,
+          "folderPath": "Content Builder/ssjs_lib"
+        },
+        "views": {
+          "html": {
+            "content": "<!-- TONY was here. -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n  <meta name=\"format-detection\" content=\"telephone=no, date=no, address=no, email=no, url=no\">\n  <meta name=\"x-apple-disable-message-reformatting\">\n  <meta name=\"color-scheme\" content=\"light only\">\n  <meta name=\"supported-color-schemes\" content=\"light only\">\n  <title>Antidote Email Template</title>\n  <!--[if mso]>\n  <noscript>\n    <xml>\n      <o:OfficeDocumentSettings>\n        <o:PixelsPerInch>96</o:PixelsPerInch>\n      </o:OfficeDocumentSettings>\n    </xml>\n  </noscript>\n  <![endif]-->\n  <!--[if !mso]><!-->\n  <link href=\"https://fonts.googleapis.com/css?family=Fraunces\" rel=\"stylesheet\" type=\"text/css\">\n  <link href=\"https://fonts.googleapis.com/css?family=Montserrat\" rel=\"stylesheet\" type=\"text/css\">\n  <style type=\"text/css\">\n    @import url(https://fonts.googleapis.com/css?family=Fraunces);\n    @import url(https://fonts.googleapis.com/css?family=Montserrat);\n  </style>\n  <!--<![endif]-->\n  <style>\n    :root {\n      color-scheme: light only;\n      supported-color-schemes: light only;\n    }\n    body {\n      margin: 0;\n    }\n    .main {\n      box-sizing: border-box;\n    }\n\n    @media screen and (max-width: 800px) {\n      .border-padding > table > tbody > tr > td, .border-padding > div > table > tbody > tr > td {\n        padding-left: 30px !important;\n        padding-right: 30px !important;\n      }\n    }\n\n    @media screen and (max-width: 480px) {\n      .feature-bg, .feature-body-bg {\n        background-size: auto 40% !important;\n      }\n      .feature-bg .copy, .feature-body-bg .copy {\n        margin-top: 200px;\n        width: 100%;\n        background-color: #fb6f55;\n      }\n      .feature-body-bg .copy {\n        margin-top: 300px;\n      }\n      .feature-bg .copy td.not-empty {\n        width: 100%;\n      }\n      .feature-bg .copy td.empty, .feature-body-bg .copy td.empty {\n        display: none;\n      }\n      .feature-body-bg .copy td.not-empty {\n        width: 100%;\n      }\n      .feature-bg-b .copy, .feature-body-bg-b .copy {\n        background-color: #004c74;\n      }\n      .feature-bg-b .copy h2, .feature-bg-b .copy p, .feature-body-bg-b .copy h2, .feature-body-bg-b .copy p {\n        color: #ffffff !important;\n      }\n      .feature-body-bg .button tbody tr td, .feature-body-bg .button tbody tr td a {\n        background: #ffffff !important;\n        color: #004c74 !important;\n      }\n\n      .column {\n        display: block !important;\n        width: 100% !important;\n        box-sizing: border-box;\n        padding: 0 30px 30px 30px !important;\n      }\n      .column:last-child {\n        padding-bottom: 0 !important;\n      }\n      .column.alt {\n        padding-top: 30px !important;\n        padding-bottom: 0 !important;\n      }\n      .column.alt:last-child {\n        padding-bottom: 30px !important;\n      }\n      .column img.fill {\n        width: 100% !important;\n        height: auto !important;\n      }\n      .icons .column {\n        width: 50% !important;\n        float: left;\n      }\n      .icons .column:nth-child(3) {\n        padding-bottom: 0 !important;\n      }\n      .icons .column.alt:nth-child(3) {\n        padding-bottom: 14px !important;\n      }\n    }\n  </style>\n</head>\n<body style=\"background: #ffffff;\">\n  <div style=\"display: none;\"></div>\n  <custom name=\"opencounter\" type=\"tracking\"></custom>\n  <div role=\"article\" aria-roledescription=\"email\" lang=\"en\" style=\"background: #ffffff; font-size: 16px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\">\n\n    <!--[if true]>\n    <table role=\"presentation\" style=\"width: 1000px;\" align=\"center\"><tr><td>\n    <![endif]-->\n    <div class=\"main\" style=\"max-width: 1000px; margin: 0 auto;\">\n      <div class=\"content\" style=\"margin: 0; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 24px; color: #333333; text-align: left; font-weight: 300;\">\n\n<!-- Header -->\n\n        <div>\n          <div class=\"border-padding feature-bg\" style=\"display: table-cell; background-image: url(https://via.placeholder.com/2000x1000?text=Feature+Image); background-repeat: no-repeat; background-size: cover; background-position: top center; width: 100%; height: 500px; vertical-align: middle;\">\n                  <!--[if mso]> <v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" fill=\"true\" stroke=\"false\" style=\"width: 750pt; height: 450px; text-align: center;\"> <v:fill type=\"frame\" size=\"750pt,450pt\" alignshape=\"true\" src=\"https://via.placeholder.com/2000x1000?text=Feature+Image\"  color=\"#ffffff\" /> <v:textbox inset=\"0,0,0,0\"><![endif]-->\n            <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n              <tbody><tr>\n                <td style=\"padding: 40px 65px 30px 65px;\">\n                  <img height=\"auto\" src=\"antidote-logo.png\" style=\"margin: 0; border: 0; display: inline-block; outline: none; text-decoration: none; height: 34px; width: auto;\">\n                </td>\n              </tr>\n            </tbody></table>\n            <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" class=\"copy\">\n              <tbody><tr>\n                <td width=\"50%\" style=\"padding: 20px 0 40px 65px;\">\n                  <h2 style=\"margin: 0; margin-bottom: 20px; font-family: Fraunces, Georgia, serif; font-size: 52px; font-weight: 600; line-height: 70px; color: #ffffff; letter-spacing: -2px;\">Hello Antidoters</h2>\n                  <p style=\"margin: 0; margin-bottom: 20px; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #ffffff;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n                  <div>\n                  <!--[if mso]>\n                    <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n                      <tr>\n                        <td width=\"65\"></td>\n                        <td>\n                  <![endif]-->\n                  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" class=\"button outlook-button\" style=\"display: inline-block; border-collapse: separate; border-radius: 50px; line-height: 100%;\">\n                    <tbody style=\"display: inline-block;\">\n                      <tr>\n                        <td style=\"display: inline-block; border: none; border-radius: 50px; cursor: auto; mso-padding-alt: 13px 40px 15px 40px; background: #ffffff;\"><a href=\"https://www.antidotehealth.ai/#\" target=\"_blank\" style=\"display: inline-block; border-radius: 50px; background: #ffffff; color: #004c74; font-family: Montserrat,Arial,sans-serif; font-size: 15px; font-weight: bold; line-height: 1; letter-spacing: 0.5px; margin: 0; text-decoration: none; padding: 13px 40px 15px 40px; mso-padding-alt: 0px; text-align: center;\">Get Started</a>\n                        </td>\n                      </tr>\n                    </tbody>\n                  </table>\n                  <!--[if mso]>\n                        </td>\n                      </tr>\n                    </table>\n                  <![endif]-->\n                  </div>\n                </td>\n                <td width=\"50%\"></td>\n              </tr>\n            </tbody></table>\n            <!--[if mso]></v:textbox></v:rect><![endif]-->\n          </div>\n        </div><div>\n          <!--[if true]>\n          <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\" style=\"all: unset; opacity: 0;\">\n            <tr>\n          <![endif]-->\n          <div style=\"display: table; width: 100%;\">\n            <!--[if true]><td width=\"50%\" style=\"padding: 0 65px; padding-right: 25px;\"><![endif]-->\n            <!--[if !true]><!-->\n              <div class=\"column\" style=\"display: table-cell; width: 50%; padding: 0 65px; padding-right: 25px;\">\n            <!--<![endif]-->\n                <img height=\"auto\" src=\"https://via.placeholder.com/822x642?text=Content+Image\" width=\"411\" alt=\"\" class=\"fill\" style=\"display: block; width: 100%; height: auto;\">\n            <!--[if !true]><!-->\n              </div>\n            <!--<![endif]-->\n            <!--[if true]>\n              </td>\n              <td width=\"50%\" style=\"padding: 0 65px; padding-left: 25px;\">\n            <![endif]-->\n            <!--[if !true]><!-->\n              <div class=\"column\" style=\"display: table-cell; width: 50%; padding: 0 65px; padding-left: 25px; vertical-align: middle;\">\n            <!--<![endif]-->\n                <p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74; font-weight: 300;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"display: inline-block; border-collapse: separate; line-height: 100%;\">\n            <tbody><tr>\n              <td colspan=\"3\"><img src=\"coupon-top.png\" width=\"309\" height=\"33\" alt=\"\" style=\"display: block; margin: 0 auto; width: 309px; height: 33px;\"></td>\n            </tr>\n            <tr>\n              <td><img src=\"coupon-left.png\" width=\"43\" height=\"151\" alt=\"\" style=\"display: block; margin: 0 auto; width: 43px; height: 151px;\"></td>\n              <td style=\"width: 227px; background-color: #fff;\">\n                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"display: block; border-collapse: separate; line-height: 100%;\">\n                  <tbody><tr>\n                    <td colspan=\"3\" style=\"height: 74px;\"><h3 style=\"margin: 0; font-family: Fraunces, Georgia, serif; font-size: 22px; font-weight: 300; line-height: 26px; color: #585758; text-align: center; letter-spacing: -.5px;\">Get Your First<br>Visit for <span style=\"color: #fb6f55;\">Only $29</span></h3></td>\n                  </tr>\n                  <tr>\n                    <td colspan=\"3\"><img src=\"coupon-divider-1.png\" width=\"227\" height=\"9\" alt=\"\" style=\"display: block; margin: 0 auto; width: 227px; height: 9px;\"></td>\n                  </tr>\n                  <tr>\n                    <td style=\"width: 100px; text-align: left;\"><p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 13px; line-height: 20px; color: #585758;\">With<br>Coupon Code →</p></td>\n                    <td style=\"width: 27px; text-align: center;\"><img src=\"coupon-divider-2.png\" width=\"7\" height=\"68\" alt=\"\" style=\"display: block; margin: 0 auto; width: 7px; height: 68px;\"></td>\n                    <td style=\"width: 100px; text-align: left;\"><p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 16px; line-height: 22px; color: #fb6f55;\">VISIT29</p>\n                    </td>\n                  </tr>\n                </tbody></table>\n              </td>\n              <td><img src=\"coupon-right.png\" width=\"39\" height=\"151\" alt=\"\" style=\"display: block; margin: 0 auto; width: 43px; height: 151px;\"></td>\n            </tr>\n            <tr>\n              <td colspan=\"3\"><img src=\"coupon-bottom.png\" width=\"309\" height=\"58\" alt=\"\" style=\"display: block; margin: 0 auto; width: 309px; height: 58px;\"></td>\n            </tr>\n          </tbody></table>\n            <!--[if !true]><!-->\n              </div>\n            <!--<![endif]-->\n            <!--[if true]></td><![endif]-->\n          </div>\n          <!--[if true]>\n            </tr>\n          </table>\n          <![endif]-->\n        </div><div class=\"column\" style=\"text-align: center;\">\n          <p style=\"margin: 0; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <a a=\"\" href=\"https://www.antidotehealth.ai/#\" style=\"color: #fb6f55; text-decoration: underline;\">aliquip</a> ex ea commodo consequat.</p>\n\n        </div>\n\n<!-- Content -->\n\n      </div>\n\n<!-- Footer -->\n\n      <div class=\"column\" style=\"margin-top: 40px; padding: 40px 150px; text-align: center;\">\n        <h2 style=\"margin: 0; margin-bottom: 20px; font-family: Montserrat, Arial, sans-serif; font-size: 25px; font-weight: 600; line-height: 32px; color: #004c74;\">Let's Stay In Touch</h2>\n        <p style=\"margin-bottom: 20px;\"><a href=\"https://twitter.com/AntidoteAI\" target=\"_blank\"><img height=\"auto\" src=\"social-twitter.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.linkedin.com/company/antidotehealth\" target=\"_blank\"><img height=\"auto\" src=\"social-linkedin.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.facebook.com/AntidoteHealthAI\" target=\"_blank\"><img height=\"auto\" src=\"social-facebook.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.youtube.com/c/AntidoteHealth\" target=\"_blank\"><img height=\"auto\" src=\"social-youtube.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a> <a href=\"https://www.instagram.com/antidoteai/\" target=\"_blank\"><img height=\"auto\" src=\"social-instagram.png\" style=\"margin: 12px; border: 0; display: inline-block; outline: none; text-decoration: none; height: auto; width: 34px;\" width=\"34\"></a></p>\n        <p style=\"margin: 0; margin-bottom: 90px; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74; text-align: center;\">Antidote Health helping you stay fit, healthy and happy.</p>\n        <p style=\"margin: 0; margin-bottom: 60px; font-family: Montserrat, Arial, sans-serif; font-size: 18px; line-height: 25px; color: #004c74; text-align: center;\"><a href=\"%%profile_center_url%%\" alias=\"Update Profile\" style=\"color: #fb6f55; text-decoration: underline;\">Update Profile / Unsubscribe</a><br><br>\n            %%Member_Busname%% <br>%%Member_Addr%%, %%Member_City%%, %%Member_State%% %%Member_PostalCode%% %%Member_Country%%</p>\n      </div>\n\n    </div>\n    <!--[if true]>\n    </td></tr></table>\n    <![endif]-->\n\n  </div>\n\n</body>\n</html>\n",
+            "availableViews": [],
+            "data": {
+              "email": {
+                "options": {
+                  "generateFrom": ""
+                }
+              }
+            },
+            "modelVersion": 2
+          },
+          "text": {
+            "content": "Hello Antidoters\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n[Get Started](https://www.antidotehealth.ai/#)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nGet Your First\nVisit for Only $29\n\nWith\nCoupon Code →\n\nVISIT29\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut [aliquip](https://www.antidotehealth.ai/#) ex ea commodo consequat.\n\nLet's Stay In Touch\n\nhttps://twitter.com/AntidoteAI https://www.linkedin.com/company/antidotehealth https://www.facebook.com/AntidoteHealthAI https://www.youtube.com/c/AntidoteHealth https://www.instagram.com/antidoteai/\n\nAntidote Health helping you stay fit, healthy and happy.\n\n[Update Profile / Unsubscribe](%%profile_center_url%%)\n\n%%Member_Busname%%\n%%Member_Addr%%, %%Member_City%%, %%Member_State%% %%Member_PostalCode%% %%Member_Country%%",
+            "availableViews": [],
+            "data": {
+              "email": {
+                "options": {
+                  "generateFrom": ""
+                }
+              }
+            },
+            "modelVersion": 2
+          },
+          "subjectline": {
+            "content": "Antidote Email Template",
+            "availableViews": [],
+            "data": {
+              "email": {
+                "options": {
+                  "generateFrom": ""
+                }
+              }
+            },
+            "modelVersion": 2
+          }
+        }
+      }
+    ]
+  }
+}
