@@ -1,0 +1,26 @@
+<script runat="server">
+Platform.Load("core", "1.1.1");
+/***********************************************
+*   
+*   // To use these functions within your script use the
+*   // the following two lines to initialize the apiConfig settings
+*   // and set your accessToken variable.
+*   
+*   var apiConfig = getAPIConfig();
+*   var accessToken = auth(apiConfig, debug, runID); 
+***********************************************/
+
+
+  function getAPIConfig() {
+    return {
+      authBase:"https://sfmcdg-hacktheworld.auth.marketingcloudapis.com/",
+      restBase:"https://sfmcdg-hacktheworld.rest.marketingcloudapis.com/",
+      contentType:"application/json",
+      grantType:"client_credentials",
+      mid: "534001218",
+      clientID:"389302aajaklakdjaa",
+      clientSecret:"jkaljkal98ddf39aljkljakld9s9"
+    };
+  };
+
+</script>
