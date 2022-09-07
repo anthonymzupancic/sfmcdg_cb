@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setstages": "git checkout -b dev && git mv -f 'Content Builder/bldr_ssjs_lib_branch_test/prod/' 'Content Builder/bldr_ssjs_lib_branch_test/dev' && git add . && git commit -m \"dev init\" && git push --set-upstream origin dev",
+    "setstages": "git checkout -b dev_2 && git mv -f 'Content Builder/bldr_ssjs_lib_branch_test/dev/' 'Content Builder/bldr_ssjs_lib_branch_test/dev_2' && git add . && git commit -m \"dev_2 init\" && git push --set-upstream origin dev_2",
     "promote": "git checkout main && git mv -f 'Content Builder/bldr_ssjs_lib_branch_test/dev/' 'Content Builder/bldr_ssjs_lib_branch_test/prod'"
   },
   "repository": {
